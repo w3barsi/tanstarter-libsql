@@ -17,10 +17,10 @@ function Home() {
 
   return (
     <div className="flex flex-col gap-4 p-6">
-      <h1 className="text-4xl font-bold">TanStarter</h1>
+      <h1 className="text-4xl font-bold">React TanStarter</h1>
       <div className="flex items-center gap-2">
         This is an unprotected page:
-        <pre className="rounded-md border bg-card p-1 text-card-foreground">
+        <pre className="bg-card text-card-foreground rounded-md border p-1">
           routes/index.tsx
         </pre>
       </div>
@@ -62,12 +62,12 @@ function Home() {
       <ThemeToggle />
 
       <a
-        className="text-muted-foreground underline hover:text-foreground"
-        href="https://github.com/dotnize/tanstarter"
+        className="text-muted-foreground hover:text-foreground underline"
+        href="https://github.com/dotnize/react-tanstarter"
         target="_blank"
         rel="noreferrer noopener"
       >
-        dotnize/tanstarter
+        dotnize/react-tanstarter
       </a>
     </div>
   );
