@@ -40,7 +40,6 @@ A minimal starter template for 🏝️ TanStack Start.
 
 - [React Compiler docs](https://react.dev/learn/react-compiler), [Working Group](https://github.com/reactwg/react-compiler/discussions) - React Compiler is still in beta. You can disable it in [app.config.ts](./app.config.ts#L15) if you prefer.
 - https://github.com/TanStack/router/discussions/2863 - TanStack Start is currently in beta and may still undergo major changes.
-- https://github.com/shadcn-ui/ui/discussions/6714 - We're using the `canary` version of shadcn/ui for Tailwind v4 support.
 
 ## Auth
 
@@ -58,6 +57,7 @@ These scripts in [package.json](./package.json#L5) use **pnpm** by default, but 
 - **`db`** - Run drizzle-kit commands. (e.g. `pnpm db generate` to generate a migration)
 - **`ui`** - The shadcn/ui CLI. (e.g. `pnpm ui add button` to add the button component)
 - **`format`** and **`lint`** - Run Prettier and ESLint.
+- **`deps`** - Selectively upgrade dependencies via npm-check-updates.
 
 #### Utilities
 
